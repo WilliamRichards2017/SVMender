@@ -11,6 +11,7 @@
 #include "IReference.h"
 #include "IVariantList.h"
 #include "Allele.h"
+#include "ThreadPool.hpp"
 
 #include "gssw.h"
 

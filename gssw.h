@@ -422,4 +422,4 @@ gssw_graph_fill (gssw_graph* graph,
 }
 #endif// __cplusplus
 
-#endif// SSW_H
+#endif

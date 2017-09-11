@@ -40,7 +40,7 @@ class Allele : public IAllele{
     return (iter == m_alignment_sample_reverse_count_map.end()) ? 0 : iter->second->getScoreCount(alleleCountType);
   }
 
-  virtual uint32_t getTotalCount(AlleleCountType alleleCountType) {
+  virtual uint32_t getTotalCount(AlleleCountType alleleCountType) override {
     uint32_t totalCount = 0;
     for (auto iter : m_alignment_sample_forward_count_map){
       totalCount += iter.second->getTotalCount();
